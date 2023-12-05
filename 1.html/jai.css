@@ -1,0 +1,184 @@
+#sri{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#nath{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 200px;
+}
+#basani{
+  background: url(https://png.pngtree.com/background/20210709/original/pngtree-dark-blue-background-picture-image_793542.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+#bb{color:gray
+}
+#aa{margin-top:10px;
+  text-align: left;
+}
+#cc{margin-top:20px;
+text-align:left;
+}
+
+#gg{ border-left: 2px solid grey;
+
+}
+
+#text1{ border-left: 2px solid grey;
+
+  }
+  #text2{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    }
+    #text3{
+      margin: 20px;
+      text-align: left;
+    }
+    #test4{ box-sizing: border-box;
+    box-shadow: 2px 4px 8px grey;
+  width: 400px;
+height: 200px;
+padding:100px;
+border: 2px solid grey;
+}
+#test7{text-align: center;
+padding: 20px;}
+#bass {background: url(https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg)
+
+}
+#kcr{
+  background-color: gold;
+  padding:15px;
+}
+#rrs{color: grey;
+margin-top: 10px;
+}
+
+
+.ss{ 
+  border: 1px groove grey;
+  padding: 40px;
+}
+#kkg{background: url(https://us.123rf.com/450wm/mokkova/mokkova2303/mokkova230300226/200734948-navy-geometric-background-with-stripes.jpg?ver=6);
+  background-repeat: no-repeat;
+  background-size: cover;
+padding-right: 100px;
+}
+#tt{border-left: 1px solid gray;
+  color:gray;
+  }
+  .box_parent{padding:20px;
+  }
+  .box_child{
+height:250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:1px;
+padding-bottom: 90px;
+border: 2px solid black;
+  }
+  .josh{padding-right:10px;
+  }
+.kk{ 
+  margin-top: 50px;
+}
+#uu{margin-left:90px; padding-top:100px
+}
+#rr{margin-left:90px; padding-top:100px
+}
+#kk {margin-left: 20px; padding:40px;
+}
+#bus { color:white;
+}
+#raj{margin-right:10px; color:gold;
+}
+.bod{color: white;}
+
+#hh{margin-left: 600px;
+}
+.mamb{margin-left: 10px;}
+#csk{margin-left: 50px;}
+#mi{margin-left: 40px;}
+#gt{padding:15px; background-color:gold; border-radius:10px; border:1px solid white
+}
+#mm{color: white;}
+#hri{color: white;}
+#ppp{color:white;
+padding: 40px;
+}
+#anj{padding:15px; background-color:gold; border:1px solid white
+}
+#uu{margin-left:30px; color:gold;
+
+}
+.ii{padding-top: 40px;}
+#oo{margin-right: 20px;
+padding-top: 40px;}
+#tp{ padding:15px; border:1px solid gold;
+  color: gold;
+  margin-left: 10px;
+}
+#ww{width: 30%;
+}
+#psp{width: 50%;}
+#psa{width: 75%;
+}
+#love{width: 100%;
+}
+#hg{font-size: 160px; margin-top:-315PX; opacity:0.3;
+}
+#hj{font-size: 160px; margin-top:-290PX; opacity:0.3;
+}
+#kil{font-size: 160px; margin-top:-280PX; opacity:0.3;
+}
+#poor{font-size: 160px; margin-top:-280PX; opacity:0.3;
+}
+#ysp{background-color:lightgrey;
+}
+#vijay{text-align:center; padding:50px;
+}
+#poss{width:300;background-color:gold;padding:10px;
+}
+#lll{margin-left:10px;
+}
+#tyy{padding: 35px 0;
+}
+#htt{padding:90px;
+}
+#kcdp{color: white;
+  padding: 20px;
+}
+#img-header-img{
+  position: relative;
+  width: 100%;
+  height:auto;
+}
+#mmm{
+  background-image: url("https://img.freepik.com/premium-photo/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110090.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  border-radius: 0 50px 0 50px;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  margin-top:40px ;
+}
+#lklk{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2159023891/display_1500/stock-photo-happy-businesspeople-laughing-while-collaborating-on-a-new-project-in-an-office-group-of-diverse-2159023891.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    border-radius: 0 50px 0 50px;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left:180px;
+    top: 90px;
+    margin-top: 40px;
+
+}

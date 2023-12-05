@@ -1,0 +1,328 @@
+
+#img{
+    width: 80px;
+}
+#col{
+    color: purple;
+}
+
+.back{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/725/774/379/misty-purple-reflection-beautiful-colours-lake-lovely-mountains-nature-ocean-other-paradise-pink-pur-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:100px ;
+}
+#sec{
+padding:50px 0px ;
+padding-bottom: 10px;
+}
+.bar{
+    color: black;
+    
+}
+#ic{
+    color: black;
+}
+#photo{
+    padding: 50px;
+    width: 45%;
+    height: 50%;
+}
+#ser{
+    color: blue;
+    text-align: center;
+}
+#pe{
+    color: black;
+    text-align: center;
+}
+.sec1{
+    padding: 10px 0;
+}
+#back{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+   margin: auto;
+    margin-bottom: -110px;
+    
+    border: 5px solid white;
+}
+.font{
+    padding:60px;
+    background-color:lightseagreen;
+}
+#font{
+color: lightseagreen;
+}
+#cm{
+    visibility: visible;
+}
+.arjun{
+    padding-top: 60px;
+}
+#crr{
+    color:lightseagreen
+}
+.font2{
+    padding:60px;
+    background-color: red;
+}
+#mass{
+    color:red;
+}
+.font3{
+
+    padding:60px;
+    background-color:orange;
+}
+#font3{
+    color:orange;
+    padding: 30px;
+}
+.font4{
+    
+    padding:60px;
+    background-color:green;
+}
+#font4{
+    color:green
+}
+.font5{
+    
+    padding:60px;
+    background-color:purple;
+}
+#font5{
+    color:purple;
+}
+.font6{
+    
+    padding:60px;
+    background-color:red;
+}
+#font6{
+    color:red;
+}
+
+.font7{
+    
+    padding:60px;
+    background-color:black;
+}
+#font7{
+    color:black;
+}
+.yel{
+    background-color: orange;
+
+}
+#wh{
+    color: white;
+    text-align: center;
+}
+   
+    #nav{
+        width: 100%;
+        height: auto;
+        visibility: visible;
+        padding-top: 40px;
+        
+    }
+.pad{
+    padding: 50px 0;
+}
+.list{
+    list-style-type:none;
+}
+
+.bar{
+    margin-left: 20px;
+    color: gray;
+}
+#iz{
+    margin-left: 100px;
+    color: gray;
+}
+
+#ll{
+    background-color: rgb(127,251,245);
+    color: azure;
+    border: none;
+     height: 50px;
+     margin-top: 40px;
+}
+#pass{
+    padding-top: 60px;
+    color:lightslategrey;
+}
+#mamma{
+    color: gray;
+    padding-top: 20px;
+}
+#josh{
+    margin-right: 10px;
+
+}
+#gg{
+    margin-right: 20px;
+}
+#love{
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+#ppr{
+    color:orange
+}
+.yel-body{
+   background-color: white;
+   padding: 30px;
+}
+.yel{
+    padding: 40px;
+}
+.yel-body-2{
+    margin-top: 80px;
+    
+}
+#dinesh{
+    color: orange;
+    text-align: center;
+margin-top: 50px;}
+
+#fg{
+    margin:auto ;
+}
+
+ .blue{
+    background-color: lightblue;
+    padding: 40px;
+ } 
+ 
+ #nick{
+    color: lightblue;
+    padding-bottom: 30px;
+ }
+ #idea{
+    background-color: purple;
+    padding: 70px;
+    margin-top: 50px;
+ }
+ 
+ .box_parent{padding:20px;
+    
+ }
+ .box_child{
+height:200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+padding-bottom: 20px;
+background-color: white;
+box-shadow: 2px 4px 8px gray;
+ }
+ #jh{
+    color: blueviolet;
+    font-size: 4em;
+ }
+ #km{
+    color:lightgreen;
+    font-size: 4em;
+ }
+ #lb{ 
+      color:red;
+    font-size: 4em;
+
+ }
+ #basani{  
+     color:orange;
+    font-size: 4em;
+
+
+ }
+ #jiff{
+    text-align: center;
+    color: white;
+    padding: 20px;}
+    #jil{
+        background-color: brown;
+        margin-top: 20px;
+        padding: 50px;
+    }
+    #nve{
+        text-align: center;
+        color: white;
+        padding: 10px;
+    
+    }
+
+    .box_child1{
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        padding-bottom: 50px;
+        background-color: white;
+        box-shadow: 2px 4px 8px gray;
+        padding: 20px;
+        margin-left: 20px;
+      
+     
+   
+         }
+         .box_parent1{
+            padding:40px;
+            
+         }
+         #cryze
+         {
+            position: relative;
+            right: 1px;
+            top: 40px;
+            
+         }
+         #pass{
+            background-color: gray;
+            margin-top: 40px;
+            padding: 50px;
+        }
+          #bb{
+            color: white;
+          }
+          #hf{
+            color:lightseagreen;
+            padding-right: 10px;
+           
+          }  
+
+          #fall{
+            color: white;
+           text-decoration: none;
+        
+          }
+         
+          
+         .news{
+            padding-left: 100px;
+         }
+         .news1{
+            padding-left: 50px;
+         }
+         .news2{
+            padding-left: 120px;
+         }
+         .news3{
+            padding-left: 110px;
+         }
+         
+
+
+         
+       
+        
