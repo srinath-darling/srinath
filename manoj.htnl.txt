@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="jai.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+<section id="tyy"> 
+  <div class="container">
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <img src="data:image/png;base64,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" alt="rr" style="width:70px; height:70px;">   
+    
+      <a class="navbar-brand" href="#"id="hh">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+              </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          
+          </li>
+          </li>
+            </ul>
+            <i class="fa-solid fa-phone" id="csk"><span class="mamb">1-001-234-5678</span></i> 
+            <i class="fa-solid fa-cart-shopping"id="mi"> </i>
+      
+      </div>
+    </div>
+  </nav>
+
+</section>
+
+  <section>
+    <div id="basani"> 
+    <div class="container">
+      <div id="basani"> 
+      <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h1 id="mm">Need a profesional Business Consulation? looking No Further We are Here to Help  </h1><br><br>
+        <p id="hri"> Offer aProffesional Advice,Gudience and Actionable solutions to Business Expiencing issues can't deal with in-house</p><br>
+        <button type="button" id="gt">Get Free consulation</button>
+        <a href="https://getfireshot.com/pdf_aHR0cHM6Ly90aGU3LmlvL2NvbnN1bHRpbmcvc2hvcC8="style="text-decoration:underline; margin-left:20px;">shop online Guides ></a>
+      </div>
+      
+      <div class="col-12 col-lg-6">
+        <div  id="img-header-img">
+          <div id="mmm"></div>
+          <div id="lklk"></div>
+      </div>
+    </div>
+  
+    
+    <div class="row">
+  
+    <div class="col-12 col-lg-3">
+    <div id="oo">
+    <i class="fa-solid fa-address-book"  id="raj"></i><span class="bod">A team of leading <br>industry exparts</span>
+    </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div id="ppp">
+      <i class="fa-solid fa-grip fa-sm" id="raj"></i><span class="bod">A full range of consulting services</span>
+    </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div id="ppp">
+        <i class="fa-regular fa-handshake fa-2xs" id="raj"> </i><span class="bod">Extensive<br> online consulting guids</span>
+
+    </div>
+    </div>
+    <div class="col-12 col-lg-3">
+      <div class="ii">
+      <i class="fa-regular fa-comments fa-lg" id="raj"> </i><span class="bod">100%free first<br>consulting for all new clients</span>
+  </div>
+  </div>
+  </div>
+  
+  
+</section>
+</header>
+
+  <section id="tyy" >
+  <div class="container">
+    <div id="cc">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <h3 id="bb">welcome toseven consulting</h3>
+      <h2>rick more then  others think is safe drem more than othets think is practical</h2>
+      <button type="button"id="anj">lets discuss your  case</button>
+      </div>
+      <div  class="col-12 col-lg-6">
+        <div id="aa">
+        <a id="gg">&nbsp;&nbsp;&nbsp;why choose us &nbsp;&nbsp;&nbsp;</a>
+        <a id="text1">&nbsp;&nbsp;&nbsp;our principles &nbsp;&nbsp;&nbsp;</a>
+        <a id="text2">&nbsp;&nbsp;&nbsp;achievements &nbsp;&nbsp;&nbsp;</a>
+      <p id="text3">aliqoam erat volutpat.placerat metus erat,conubia nostra,per inceptos himenaeosnec vulputate nulla iaculis eu. cclass aptent taciti sociosqu ad litora torquent per conubia  nostra,per inceptos himenaeos.in vel various esteul suspendisse necvulputate nulla iaculis eu potenti<br>sed sagittis maximusquam,nac laoreet enim laoreet sed lorem <br>ipsum placerat metus erat,nec vulputate nulla iaculis eu.class<br>aptent taciti sociosqa ad litora torquent per conubia</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+
+<div class="row">
+  <div class="col-12 col-md-4 col-lg-4 box_parent">
+    <div class="box_child">
+<i class="fa-solid fa-chart-line" id="uu"></i><br>Business developemet
+  </div>
+  </div>
+  <div class="col-12 col-md-4 col-lg-4 box_parent">
+    <div class="box_child">
+      <i class="fa-solid fa-gears"id="uu"></i><br>Business&nbsp;optimisation
+    </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 box_parent">
+      <div class="box_child">
+        <i class="fa-solid fa-chart-pie" id="uu"></i><br>marketing planning
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+
+<div class="row">
+    <div class="col-12 col-md-4 col-lg-4 box_parent">
+    <div class="box_child">
+    <i class="fa-solid fa-chess-knight" id="uu"></i><br>Brand& strategy
+  </div>
+  </div>
+
+  <div class="col-12 col-md-4 col-lg-4 box_parent">
+    <div class="box_child">
+      <i class="fa-solid fa-user-group" id="uu"></i><br>human resources
+    </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 box_parent">
+    <div class="box_child">
+        <i class="fa-solid fa-calculator" id="uu"></i><br>system analytic
+    
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="tyy" >
+  <div id="bass">
+<div class="container">
+<div id="bass">
+<div class="row" id="test7">
+  <div id="kcdp">
+    <h3>Need a professional business consultation?<br> let'descuss your case!</h3>
+    <button id="kcr"> contact as online</button>
+    
+      <i class="fa-solid fa-phone &nbsp &nbsp &nbsp" id="tp">1-001-234-5678</i>
+    </div>
+    </div>
+    </div>
+  </div>
+  </section>
+  
+<section  class="josh">
+  <div class="container">
+  <div class="row">
+  <div class="col-6">
+    <h5 id="rrs">high level of competence</h5><br></h5>
+    <h3>our experiense will halp you create a<br> quality product</h3>
+    <p>aliquam eeat volutpat.donec placerat metus ertus,nec vuiputate<br>nulla iaculis.suspendisse potenti.sed sagittis maximus quam,<br>nec laoreet enim laoreet iqsum vulptate nulla iaculis.<br>suspendisse euismod felis nunc,vitae aliquet lectus ornare.</p>
+
+  </div>
+  <div class="col-6">
+    <div class="kk">
+    <h6>online services</h6>
+    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar text-bg-warning"id="ww">3 years </div>
+      </div>
+      <h6>finance managment</h6>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar text-bg-warning" id="psp">5 years </div>
+        </div>
+        <h6>investment</h6>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-warning" id="psa">10 years </div>
+          </div>
+          <h6>consulting</h6>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar text-bg-warning"id="love">12 years </div>
+    </div>
+  </div>
+   </div>    
+  </div>
+</div>
+</section>
+
+<section id="htt">
+<div class="container">
+<div class="row">
+  <div class="col-3">
+    <h5>experienced specialiststs</h5><br>
+    <p>quisque in suscipit nisi,at<br> auctor orci.sed posuere ullacorper molestie.<br>suspendisse euismod felis<br>nunc,vitae aliquet lectus<br>ornare</p>
+  <h1 id="hg">01</h1>
+  </div>
+  <div class="col">
+    <h5>stable&predictable results</h5><br>
+    <p>mauris eu ex nec felis sagittis<br>efficitur.suspendisse euismod<br>felis nunc,vitae aliquet lectus<br> ornare ac.sed posuere<br>ullamcorper molestie.</p>
+    <h1 id="hj">02</h1>
+  </div>
+<div class="col">
+  <h5>100% satisfaction<br>guarantee</h5><br>
+<p>mauris eu ex nec felis sagittis<br>efficitus in suscipit nis posuete<br>ullamcorper molestie.<br>suspendisse euismod!</p>
+<h1 id="kil">03</h1>
+</div>
+<div class="col">
+  <h5>20+years in consulting<br>business</h5><br>
+  <p>sed posuere uiiamcorper<br>molestie.suspendisse euismod<br>felis nunc,vitae aliquet lectus<br>ornare ac.</p>
+  <h1 id="poor">04</h1>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="htt">
+
+<div class="container">
+  <div id="ysp">
+  <div class="row">
+  <div class="col-12 col-lg-12">
+    <div id="vijay">
+    <h3>any questions?request a call-back to get a <br>free analysis of your business!</h3>
+    <input type="fname" id="fname" name="fname" placeholder="enter the name">
+    <input type="fname" id="fname" name="fname" placeholder="phone number"><br><br>
+    <i class="fa-solid fa-phone" id="poss"><span id="lll">request acall-back</span></i>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tyy">
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <h6 style="color: gray;">why choose our company</h6><br><br>
+      <h3>hear' how things are going to change<br>for your business</h3><br><br>
+      <i class="fa-solid fa-check" style="color:gold; margin-right:10px"></i>150-180%more lorem volutpat donec glavrida ipsum dolor<br><br>
+
+      <i class="fa-solid fa-check" style="color:gold; margin-right:10px"></i>reative voltpatv donec glavrida ipsum<br><br>
+      <i class="fa-solid fa-check" style="color:gold; margin-right:10px"></i>class aptent taciti sociosqu ad litara<br><br>
+      <i class="fa-solid fa-check" style="color:gold; margin-right:10px"></i>100-200%of dolor nulla gravida et ipsum nulla<br><br>
+      <i class="fa-solid fa-check" style="color:gold; margin-right:10px"></i>amet lorem-dolor nulla gravida et nulla gravida<br><br>
+  
+    </div>
+    <div class="col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/st2disxc7Wg?si=EbA7wq6H36Gvl7Wy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top:60px;"></iframe>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+
+
+<section id="tyy">
+<div class="container">
+ 
+<div class="row" >
+  <div class="col">
+    <div class="ss">
+    <i class="fa-solid fa-quote-right" style="color:gray;"></i><br>Wow!commodo egestas, feugiat<br>leo eget ipsum dolor sitvulputate<br>metus vestibulum ipsum.<br><br>
+    <h4>Bernard blackwood</h4><br>
+    <p style="color:gray;">seven&co-marketing director</p>
+  </div></div>
+  <div class="col">
+    <div class="ss">
+    <i class="fa-solid fa-quote-right" style="color:gray;"></i><br>super!300%+lorem neque mauris<br>et leo ipsum ulvinar lorem neque.<br>thanx!<br><br>
+    <h4>john blackwood</h4><br>
+    <p style="color:gray;">seven Consulting-executive director</p>
+  </div></div>
+  <div class="col">
+    <div class="ss">
+  <i class="fa-solid fa-quote-right" style="color:gray;"></i><br>Laremmetus vestibulum ipsum<br>dolor sit amet, consectetur<br>adipiscing elit odio nec urna.<br> metus vestibulim.<br>
+  <h4>alexander Brown</h4><br>
+  <p style="color:gray;">seven creative-marketing director</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tyy">
+  <div id="kkg">
+<div class="container">
+<div id="kkg">
+  <div class="row">
+    <div class="col-3" id="kk">
+      <img src="https://sevenconsultingservices.com/wp-content/uploads/elementor/thumbs/logo-ou3r5pxfzvfi7oq0c1jucm75ds471px2zkqpyqk1vs.jpeg" style="width:150px;" height="100px"><br><br>
+      <p style="color:white"> exist to empower people to deliver<br>ridiculously good innovation to the world's<br>best companies.</p>
+      </div>
+      <div class="col" id="uu">
+        <h6 style="text-decoration:underline; color:gold"><span style="color:white"> contact info</span></h6>
+        <i class="fa-solid fa-phone"style="color:white;&nbsp&nbsp&nbsp"><span style="color:white; margin-left:10px;">1-001-234-5678</span></i>
+        <p style="color:gray;">mon-sat:800-21:00</p>
+        <i class="fa-solid fa-envelope"style="color:white;"><span style="color:white; font-family:auto; margin-left:10px">info@dream-thame.com</span></i>
+        <p style="color:gray;">24/7 customer support</p> 
+        <i class="fa-regular fa-building"style="color:white;"><span style="color:white;font-family:auto; margin-left:10px;">3 rockaway st., new rochelle,ny10801</span></i>
+<p style="color: gray;">main office location</p>
+      </div>
+      <div class="col" id="rr"> 
+        <h6 style="text-decoration:underline; color:gold"><span style="color:white"> Racent articles</span></h6>
+        <h6 style="color:white;">How to find your ideal business advisor</h6>
+        <p style="color:gray">march 4,2020</p>
+        <h6 style="color:white;">main business consulting trends 21/22</h6>
+        <p style="color:gray">fabruary 25,2020</p>
+        <h6 style="color:white;">Top 6 financial planing tricks</h6>
+        <p style="color:gray">fabruary 18,2020</p>
+          
+
+
+    </div>
+  </div>
+
+
+  <br><div class="container">
+  <div style="color:white;"><hr></div></div>
+
+  <div class="container">
+  <div  class="row">
+    <div class="col-4">
+      <i class="fa-solid fa-copyright" style="color:gray;font-size:12px;"><span style="color:gray; margin-left:5px;font-size:10px;">the 7 consulting-2022.all rights reserved</span></i>
+</div>
+<div class="col-3">
+  <a id="tt">&nbsp;&nbsp; terms&conditions&nbsp;&nbsp;&nbsp;</a>
+
+</div>
+
+    <div class="col-2" style="color:white;">
+      <a id="tt">&nbsp;&nbsp;&nbsp;cookies policy&nbsp;&nbsp;</a>
+    </div>
+    <div class="col-2" style="color:gray;">
+      <i class="fa-brands fa-facebook" style="margin-left:5px;"></i>
+      <i class="fa-brands fa-twitter" style="margin-left:10px;"></i>
+      <i class="fa-brands fa-youtube" style="margin-left:10px;"></i>
+      <i class="fa-brands fa-linkedin" style="margin-left:10px;"></i>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+<br><br><br><br>
+</body>
+</html
