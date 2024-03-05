@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+#app{
+    color: brown;
+
+    
+}
+
+#box{
+   border: 2px solid black;
+   padding: 20px;
+   border-radius: 20%;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   transition: width 1s, height 1s, transform 1s;
+
+}
+#sevan{
+    padding: 20px;
+   margin: 5px;
+   background: transparent;
+   border-radius: 10px;
+}
+#input{
+    background: transparent;
+
+}
+#plus{
+    background-color: yellow;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#ac{
+    background-color: red;
+}
+
+#box:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
